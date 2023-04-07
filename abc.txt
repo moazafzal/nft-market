@@ -1,0 +1,50 @@
+{
+    "31337": {
+        "NFT": {
+            "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+        },
+        "Marketplace": {
+            "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+        }
+    }
+}
+// <Collapse in={open}>
+    
+    {/* <div style={{ width: '96%', backgroundColor: 'gray', height: '435px' }} className='mx-auto'>
+        <CloseButton onClick={() => { setOpen(false); setNftID(null) }} variant='white' style={{ position: 'absolute', right: '48px', top: '69px' }} />
+        <Row >
+          <Col className=''><Image src={nftItem.image} rounded height={400} style={{ marginLeft: '17px', marginTop: '10px', marginBottom: '10px' }} /></Col>
+          <Col>
+            <h1 className='text-light mt-3'>{nftItem.name}</h1>
+            <p>{nftItem.description}</p>
+            <Table className='mt-4'>
+              <tbody>
+                <tr>
+                  <td>Seller</td>
+                  <td>{nftItem.seller.slice(0, 5)}...{nftItem.seller.slice(38, 42)}</td>
+                </tr>
+                <tr>
+                  <td>Price</td>
+                  <td>{tokens(nftItem.totalPrice)}</td>
+                </tr>
+                <tr>
+                  <td>Token ID</td>
+                  <td><Badge>{nftItem.tokenId.toString()}</Badge></td>
+                </tr>
+                <tr>
+                  <td>Contract Address</td>
+                  <td>
+                    <Link to={`https://goerli.etherscan.io/address/${nftItem.nftAddress}`} target="_blank" style={{ color:'white'}}>
+                      {nftItem.nftAddress.slice(0, 5)}...{nftItem.nftAddress.slice(39, 42)}
+                    </Link>
+                  </td>
+                </tr>
+              </tbody>
+            </Table>
+            {purchaseNFT&&<div style={{ marginTop: '85px' }}>
+              <Button onClick={() => purchaseNFT(nftItem.itemId, nftItem.totalPrice)}>Buy NFT</Button>
+            </div>}
+          </Col>
+        </Row>
+      </div> */}
+    // </Collapse>
